@@ -1,0 +1,26 @@
+﻿<Window x:Class="ZACHET.Client"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZACHET"
+        mc:Ignorable="d"
+        Title="Client" WindowState="Maximized" Height="400" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="Hello" Text="Здравствуйте, " FontSize="30" FontWeight="Bold" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center"/>
+        <Button x:Name="EnterPA" Click="EnterPA_Click" Content="Личный Кабинет" Grid.Column="1" Grid.Row="2" Background="GhostWhite"  Height="50" Width="400" BorderBrush="White" HorizontalAlignment="Center" FontSize="20"/>
+        <Button Name="button" Click="button_Click" Height="50" Content="Лично для Ильи Васильевича" Width="400" Grid.Column="1" Grid.Row="3" Background="GhostWhite" BorderBrush="White" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
