@@ -21,6 +21,6 @@
         </Grid.RowDefinitions>
         <TextBlock x:Name="Hello" Text="Здравствуйте, " FontSize="30" FontWeight="Bold" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Center"/>
         <Button x:Name="EnterPA" Click="EnterPA_Click" Content="Личный Кабинет" Grid.Column="1" Grid.Row="2" Background="GhostWhite"  Height="50" Width="400" BorderBrush="White" HorizontalAlignment="Center" FontSize="20"/>
-        <Button Name="button" Click="button_Click" Height="50" Content="Лично для Ильи Васильевича" Width="400" Grid.Column="1" Grid.Row="3" Background="GhostWhite" BorderBrush="White" HorizontalAlignment="Center"/>
+        <Button Name="button" FontSize="20" Click="button_Click" Height="50" Content="Лично для Ильи Васильевича" Width="400" Grid.Column="1" Grid.Row="3" Background="GhostWhite" BorderBrush="White" HorizontalAlignment="Center"/>
     </Grid>
 </Window>
